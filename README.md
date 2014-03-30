@@ -12,11 +12,42 @@ node index.js
 
 Commands
 --------
-- get <key>
-- set <key> <value> (errors if key doesnt exist)
-- add <key> <value>
-- increment <key> <amount>
-- decrement <key> <amount>
-- delete <key>
-- empty
-- quit
+Gets specific key from cache
+```
+> get <key>
+```
+
+Sets value for existing key
+```
+> set <key> <value>
+```
+
+Add a new key and value
+```
+> add <key> <value>
+```
+
+Increment value of a key (Must be integer)
+```
+> increment <key> <amount>
+```
+
+Decrement value of a key (Must be integer)
+```
+> decrement <key> <amount>
+```
+
+Deletes a key and its value from cache
+```
+> delete <key>
+```
+
+Empties the entire cache
+```
+> empty
+```
+
+Exists Program
+```
+> quit
+```
